@@ -1,0 +1,162 @@
+/* ============================= */
+/* 🎨 PAYFLIP BRAND COLORS       */
+/* ============================= */
+
+:root {
+  /* Light Mode */
+  --pf-bg-main: #E9F1FA;
+  --pf-surface: #FFFFFF;
+  --pf-accent: #00ABE4;
+  --pf-accent-dark: #0099cc;
+
+  --pf-text-primary: #0f172a;
+  --pf-text-secondary: #475569;
+
+  /* Material Overrides (Light) */
+  --md-primary-fg-color: #FFFFFF;
+  --md-primary-bg-color: #0f172a;
+  --md-accent-fg-color: var(--pf-accent);
+  --md-default-bg-color: var(--pf-bg-main);
+}
+
+
+/* ============================= */
+/* 🌙 CUSTOM DARK MODE (NOT SLATE LOOK) */
+/* ============================= */
+
+[data-md-color-scheme="slate"] {
+  --pf-bg-main: #0b1220;
+  --pf-surface: #111827;
+  --pf-accent: #00ABE4;
+  --pf-accent-dark: #38bdf8;
+
+  --pf-text-primary: #e2e8f0;
+  --pf-text-secondary: #94a3b8;
+
+  --md-primary-fg-color: #0b1220;
+  --md-primary-bg-color: #020617;
+  --md-accent-fg-color: var(--pf-accent);
+  --md-default-bg-color: var(--pf-bg-main);
+}
+
+
+/* ============================= */
+/* 🧱 LAYOUT                     */
+/* ============================= */
+
+.md-main {
+  background-color: var(--pf-bg-main);
+}
+
+.md-grid {
+  max-width: 1100px;
+}
+
+
+/* ============================= */
+/* 🔝 HEADER                     */
+/* ============================= */
+
+.md-header {
+  background-color: var(--pf-surface);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background-color: var(--pf-surface);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+
+/* ============================= */
+/* 🧭 SIDEBAR                    */
+/* ============================= */
+
+.md-nav__title {
+  font-weight: 600;
+  color: var(--pf-text-secondary);
+}
+
+.md-nav__link--active {
+  color: var(--pf-accent);
+  font-weight: 600;
+}
+
+.md-nav__link:hover {
+  color: var(--pf-accent);
+}
+
+
+/* ============================= */
+/* 📝 TYPOGRAPHY                 */
+/* ============================= */
+
+.md-typeset {
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: var(--pf-text-primary);
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h2 {
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+}
+
+
+/* ============================= */
+/* 🔗 LINKS                      */
+/* ============================= */
+
+.md-typeset a {
+  color: var(--pf-accent);
+  font-weight: 500;
+}
+
+.md-typeset a:hover {
+  color: var(--pf-accent-dark);
+}
+
+
+/* ============================= */
+/* 📦 CODE                       */
+/* ============================= */
+
+.md-typeset code {
+  background-color: rgba(0, 171, 228, 0.1);
+  color: #0369a1;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+[data-md-color-scheme="slate"] .md-typeset code {
+  background-color: rgba(0, 171, 228, 0.15);
+  color: #7dd3fc;
+}
+
+
+/* ============================= */
+/* 📌 ADMONITIONS                */
+/* ============================= */
+
+.md-typeset .admonition {
+  border-left: 3px solid var(--pf-accent);
+}
+
+
+/* ============================= */
+/* 🔘 BUTTONS                    */
+/* ============================= */
+
+.md-button {
+  border-radius: 8px;
+  font-weight: 500;
+}
