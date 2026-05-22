@@ -1,38 +1,26 @@
 # What is Payflip?
 
-Payflip is a unified money layer. It abstracts how funds are stored, moved, and used across chains, apps, and currencies, so you interact with a single balance instead of juggling systems.
+Payflip is a unified money layer. It gives you one balance for using money across chains, apps, and currencies without juggling separate tools.
 
 ---
 
 ## The core idea
 
-In today's crypto ecosystem, money is fragmented by design. Funds exist across different chains, different wallets, and different asset formats. Using them normally requires coordinating between all of these.
+In today's crypto ecosystem, money is fragmented by design. Funds appear across different chains, wallets, and asset formats. Using them normally means thinking about where money is, what format it is in, and which tool is needed next.
 
-Payflip removes that requirement. You operate as if all your funds exist in one place, regardless of where they actually are.
+Payflip removes that burden from the everyday experience. You interact with one balance instead of managing the pieces yourself.
 
 ---
 
-## How it feels to use
+## User experience
 
-From your perspective, there is one balance. It is instantly usable.
+From your perspective, there is one balance. It is ready to use.
 
-- Payments are made to **people** — names or emails, not blockchain addresses.
+- Payments are made to **people**, using names or emails instead of blockchain addresses.
 - Amounts are entered in a **consistent denomination**, like dollars.
 - You don't select chains, bridge funds, swap assets, or manage gas.
 
-You describe what you want to do. The system figures out how.
-
----
-
-## What Payflip abstracts
-
-Payflip works at three levels, mirroring the three ways money is fragmented today:
-
-**Balance.** All your funds appear as one balance, independent of location. The system picks which underlying funds to use.
-
-**Execution.** Moving, converting, and settling happen automatically in the background. You never manually bridge or pre-position funds.
-
-**Interface.** A single interaction replaces a stack of tools — wallets, bridges, exchanges, and apps. The experience stays the same regardless of the underlying system.
+You focus on the payment or action you want to complete, not the infrastructure around it.
 
 ---
 
@@ -42,7 +30,7 @@ Payflip works at three levels, mirroring the three ways money is fragmented toda
 - Not a bridge that moves funds between chains
 - Not an application limited to one ecosystem
 
-It's a unifying layer across all of them.
+It is a simple interface for using money across them.
 
 ---
 

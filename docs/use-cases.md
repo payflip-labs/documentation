@@ -1,6 +1,6 @@
 # Use Cases
 
-Payflip turns multi-step financial workflows into simple actions. Here's what that looks like in practice.
+Payflip turns fragmented financial workflows into simple user actions. Here are common examples.
 
 ---
 
@@ -10,12 +10,12 @@ Send money by entering a recipient's email or name instead of a blockchain addre
 
 - No copying or verifying long addresses
 - No concern about which chain the recipient is on
-- Works even if the recipient hasn't signed up yet
+- Available even if the recipient has not signed up yet
 
 !!! example "Maya pays her designer"
-    Maya sends $200 to her designer in Lisbon by entering their email. Maya's funds sit on Base as USDC; her designer has set a preference for Arbitrum. Neither of them picks a chain — the designer just sees $200 land in their Payflip balance.
+    Maya sends $200 to her designer in Lisbon by entering their email. Neither person needs to pick a chain or copy a wallet address. The designer sees the payment in their Payflip balance.
 
-By default, the recipient receives funds in the same asset and on the same chain. If they've configured preferences, funds arrive on their preferred chain and in their preferred format. Either way, the sender doesn't make the decision.
+The sender focuses on the recipient and amount, not the crypto details.
 
 ---
 
@@ -23,12 +23,12 @@ By default, the recipient receives funds in the same asset and on the same chain
 
 Send funds without knowing where they are held or where they need to go.
 
-- Funds can originate on one chain and land on another
 - No manual bridging or pre-positioning
-- Routing and execution are handled automatically
+- No chain selection for the sender
+- No extra tools to open before sending
 
-!!! example "Settling with a contractor"
-    Alex owes a contractor $1,500. Alex's balance is spread across USDC on Ethereum, USDT on Polygon, and ETH on Base. Payflip sources from whichever combination is cheapest and fastest and delivers $1,500 to the contractor as a single transfer. Alex never opens a bridge.
+!!! example "Paying a contractor"
+    Alex owes a contractor $1,500. Alex enters the amount, chooses the contractor, and confirms. The payment feels like one action instead of a chain-management task.
 
 ---
 
@@ -38,10 +38,10 @@ Send money globally with the same experience as a local payment.
 
 - No dependency on traditional banking rails
 - No extra steps for international transfers
-- No delays from settlement windows
+- No bank-window coordination
 
 !!! example "Freelance invoice across continents"
-    Priya, in Mumbai, invoices a client in Berlin for $800. The client pays via Payflip by entering Priya's email. Priya sees $800 in her balance within seconds — no SWIFT, no intermediary bank, no two-day wait.
+    Priya, in Mumbai, invoices a client in Berlin for $800. The client pays via Payflip by entering Priya's email. Priya sees the payment in her Payflip balance without a bank-transfer workflow.
 
 ---
 
@@ -51,10 +51,10 @@ Use funds without managing token formats.
 
 - Pay in a consistent denomination (e.g. dollars)
 - No manual swaps between assets
-- Conversions happen automatically when required
+- No token-format decisions at checkout
 
 !!! example "Paying rent in dollars"
-    Jordan's landlord wants $2,100 in USDC on Base. Jordan's Payflip balance is held mostly as ETH. Jordan enters "$2,100" and confirms. The system converts and settles. Jordan doesn't touch a DEX.
+    Jordan needs to pay $2,100 in rent. Jordan enters "$2,100" and confirms without opening another app to manage token details.
 
 ---
 
@@ -67,7 +67,7 @@ Use different apps without switching networks or preparing balances.
 - No preparation steps
 
 !!! example "Minting on a new chain"
-    Sam wants to mint an NFT on a chain they've never used. With Payflip, Sam clicks mint. The required fee is sourced from Sam's unified balance and delivered on the target chain automatically. Sam never sees the chain name.
+    Sam wants to mint an NFT in an app they have not used before. With Payflip, Sam can complete the action without first managing network settings or preparing a separate balance.
 
 ---
 
@@ -90,6 +90,6 @@ Every use case collapses to the same three steps:
 
 1. Enter an amount
 2. Choose a recipient
-3. Execute
+3. Confirm
 
-Everything else is handled by the system.
+The experience stays focused on the user action.

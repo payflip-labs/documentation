@@ -52,10 +52,8 @@ nav:
   - What is Payflip?: what-is-payflip.md
   - The Problem: the-problem.md
   - Why Payflip: why-payflip.md
-  - How It Works: how-it-works.md
   - Use Cases: use-cases.md
   - FAQ: faq.md
-  - Future Directions: future-directions.md
   - Links: links.md
 
 markdown_extensions:

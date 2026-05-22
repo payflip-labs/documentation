@@ -2,7 +2,7 @@
 
 Money is becoming multi-chain, multi-asset, and globally accessible. The infrastructure has grown fast, but the way people interact with it hasn't kept up.
 
-To use money today, you still have to understand where it's held, how to move it, and which system to use. That creates a gap between what the infrastructure enables and what you can actually do with it.
+To use money today, you still have to understand where it is, what format it is in, and which tool is needed. That creates a gap between what the infrastructure enables and what people can comfortably use.
 
 ---
 
@@ -12,7 +12,7 @@ To use money today, you still have to understand where it's held, how to move it
 - **Bridges** move funds, but require manual coordination.
 - **Apps** enable usage, but are limited to their own ecosystems.
 
-You're left to connect the pieces yourself. The more the ecosystem grows — more chains, more liquidity, more execution paths — the more coordination you have to do.
+You're left to connect the pieces yourself. The more the ecosystem grows, the more decisions you have to make before doing something simple.
 
 ---
 
@@ -20,18 +20,18 @@ You're left to connect the pieces yourself. The more the ecosystem grows — mor
 
 Payflip does not add another tool to the stack. It removes the need to manage the stack at all.
 
-Operating as an aggregation and abstraction layer, Payflip:
+Payflip gives users:
 
-- Unifies fragmented balances into one
-- Coordinates execution across systems automatically
-- Exposes a single consistent interface for every interaction
+- One balance instead of many disconnected balances
+- Payments by name or email instead of long addresses
+- A consistent experience across chains, apps, and currencies
 
-The result is a system where you interact with money directly, not with the infrastructure behind it.
+The result is an experience where you interact with money directly, not with the surrounding infrastructure.
 
 ---
 
-## Built for where the ecosystem is going
+## Built for a growing ecosystem
 
 As more chains emerge and liquidity continues to spread, the coordination burden only grows. Without abstraction, usability doesn't scale with infrastructure.
 
-Payflip is designed for that future: complexity increases underneath, but the user experience stays simple.
+Payflip is designed for that environment: complexity increases underneath, but the user experience stays simple.
