@@ -9,8 +9,8 @@
 
 ## Community
 
-- Discord: [discord.gg/jhc87tkK](https://discord.gg/jhc87tkK)
-- Twitter: [@payflip_labs](https://x.com/payflip_labs)
+- Discord: [discord.gg/2SBfM9kqrk](https://discord.gg/2SBfM9kqrk)
+- Twitter: [@payflipxyz](https://x.com/payflipxyz)
 
 ---
 

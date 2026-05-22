@@ -93,9 +93,9 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/x-twitter
-      link: https://x.com/payflip_labs
+      link: https://x.com/payflipxyz
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/jhc87tkK
+      link: https://discord.gg/2SBfM9kqrk
     - icon: fontawesome/brands/github
       link: https://github.com/payflip-labs
   generator: false
